@@ -24,8 +24,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ferranti.esame.HelloApplication" />
+    <configuration name="SortApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ferranti.esame.SortApplication" />
       <module name="esame" />
       <method v="2">
         <option name="Make" enabled="true" />

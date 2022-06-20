@@ -7,11 +7,9 @@ import javafx.scene.control.TextField;
 import java.text.Collator;
 import java.util.*;
 
-public class HelloController {
+public class SortController {
+    
     protected List<String> lista = new ArrayList<String>();
-
-    @FXML
-    private Label welcomeText;
 
     @FXML
     private TextField txtField;
@@ -22,7 +20,6 @@ public class HelloController {
         String[] words = txtField.getText().split(",");
         int i=0;
         while(words.length!=i){
-            //lista.add(words[i]);
             Collections.addAll(lista,words[i]);
             i++;
         }
